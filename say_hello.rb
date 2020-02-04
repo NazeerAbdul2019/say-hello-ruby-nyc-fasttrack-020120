@@ -1,4 +1,5 @@
-def say_hello(Nazeer)
-  print "Hello!"
-  print say_hello
+def say_hello(name = "Ruby Programmer")
+  puts "Hello #{name}!"
 end
+
+say_hello
